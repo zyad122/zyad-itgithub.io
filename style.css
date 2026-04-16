@@ -135,17 +135,19 @@ section h2{
     background-image: url(img/IMG.jpeg);
     height: 100vh;
     width: 100%;
+  
 }
 
 .contact-info h2{
     font-size: 30px;
     margin-bottom: 15px;
+    margin-top: 100px;
    font-weight: 900;
     color: white;
 }
 .contact-info P{
     font-size: 23px;
-    margin-left: 80px;
+    margin-right: 30px;
     font-weight: 600;
     color: white;
     margin-bottom: 10px;
@@ -154,7 +156,8 @@ section h2{
 
 
 .contact-info h3{
-margin: 20px 10px;
+margin: 20px 0px;
+margin-left: 5px;
 font-size: 32px;
 color: white;
 margin-left: 70px;
@@ -162,8 +165,11 @@ margin-left: 70px;
 .contact-info a{
     font-size: 23px;
 
-    margin-left:30px;
+    margin-left:10px;
     color: white;
+}
+.contact-info a:hover{
+    color: blue;
 }
 .add{
     margin: 0px;
