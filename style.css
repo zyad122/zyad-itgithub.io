@@ -1,0 +1,276 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.postion{
+    position: absolute;
+    
+    top:0;
+    width: 100%;
+
+}
+
+header{
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+.loga{
+    padding-left: 20PX;
+    font-size: 25px;
+    font-weight: 400;
+    text-decoration: none;
+    color: blue;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+    
+}
+header li{
+    padding-right: 20px;
+}
+header li a{
+    text-decoration: none;
+     font-size: 14px; 
+    padding: 5px;
+    color: blue;
+}
+    
+
+header li a:hover{
+    color: black;
+    border-bottom: 2px solid black;
+}
+section{
+    padding: 200px 5px;
+}
+.main{
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 55vh;
+    background-image: url(img/bac.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.main div{
+    margin-top: 70px;
+   
+    }
+.main a{
+    text-decoration: none;
+    color: #fFFF;
+   
+    padding: 15px 50px;
+    border: 1px solid ;
+    border-radius: 15px;
+    background-color: blue;
+}
+.main a:hover{
+    background-color: black;
+}
+section h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    color: blue;
+    margin-bottom: 50px;
+}
+.contain{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap:wrap;
+    margin-top: 30px;
+
+}
+.subject{
+    background: #000138ee;
+    width: 100%
+}
+.subject-card{
+    width: 400px;
+    background-color: #fFFF;
+    border: 5px solid #fFFF;
+    border-radius: 10px;
+    margin: 40px;
+    transition: 0.6s ease;
+}
+.subject-card:hover{
+    transform: scale(1.1);
+}
+.image img{
+    width:100%;
+}
+.info{
+    padding: 5px;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.details a{
+    text-decoration: none;
+    color: blue;
+}
+.details a:hover{
+    color: black;
+
+}
+#contact {
+    background-image: url(img/IMG.jpeg);
+    height: 100vh;
+    width: 100%;
+}
+
+.contact-info h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+   font-weight: 900;
+    color: white;
+}
+.contact-info P{
+    font-size: 23px;
+    margin-left: 80px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+
+.contact-info h3{
+margin: 20px 10px;
+font-size: 32px;
+color: white;
+margin-left: 70px;
+}
+.contact-info a{
+    font-size: 23px;
+
+    margin-left:30px;
+    color: white;
+}
+.add{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   background-image: url(img/IMG.jpeg);
+}
+
+ main h2{
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+input{
+    width: 150px;
+    padding: 8px 30px;
+    
+    margin-bottom: 10px;
+}
+textarea{
+    padding: 8px 20px;
+}
+button{
+    padding: 5px 10px;
+    margin-left: 40px;
+    margin-top: 5px;
+   
+}
+button:hover{
+    background-color: black;
+    color: blue;
+}
+.DD{
+    background-image: url(img/IMG.jpeg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    margin-top: 150px;
+}
+.DD main h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    color: black;
+    margin-bottom: 20px;
+}
+table{
+    width: 450px;
+    height: 300px;
+}
+table th{
+    color: #fFF;
+    font-size: 30px;
+    font-weight: 600;
+}
+table td{
+    color:#ffff;
+    font-size: 24px;
+    font-weight: 500;
+}
+@media (max-width: 768px){
+    .subject-card{
+        width: 100%;
+    }
+
+    section{
+        padding: 50px;
+    }
+}
+@media (max-width: 768px){
+    header{
+        padding: 10px;
+    }
+
+    .loga{
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 18px;
+    }
+    header ul{
+        gap: 5px;
+    }
+
+    header li a{
+        font-size: 12px;
+    }
+}
+@media(max-width:765px){
+    table{
+        width: 125px;
+        height: 200px;
+    }
+    table th{
+        font-size: 22px;
+        font-weight: 500;
+    }
+}
+@media(max-width:760px) {
+.contact-info P{
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 5px;
+}
+    
+}
